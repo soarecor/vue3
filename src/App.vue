@@ -4,12 +4,13 @@
 import { ref } from 'vue'
 import Form from './components/form.vue'
 import Table from './components/table.vue'
+import CreateList from './components/createList.vue'
+
 </script>
 
 <template>
   <div class="app">
-    <Form />
-    <Table />
+    <CreateList/>
   </div>
 </template>
 
